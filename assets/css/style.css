@@ -24,7 +24,7 @@ body {
   text-decoration: none;
   border: none;
   list-style: none;
-  color: #fff;
+  color: #666666;
   margin: 0;
 }
 
@@ -239,7 +239,7 @@ button {
 * Color
 *********************/
 .bg-color--keycolor {
-  background-color: #666666;
+  background-color: #39b54a;
 }
 
 .bg-color--subcolor {
@@ -292,7 +292,7 @@ button {
 }
 
 .section-title--keycolor {
-  background-color: #666666;
+  background-color: #39b54a;
 }
 
 .section-title--story {
