@@ -68,7 +68,7 @@ Youtube貼り付けここまで -->
               1番麺の引数 $event は正解、不正解の判定を受け取る変数です。
               []、()の間違い、''の抜けがあると動きません。
             ------------------------------------------------------------------------------------------------------------>
-            <answer-input v-bind:correct="correctAnswer['stage1']['q1']['q2']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
+            <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
 
             <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
           </div>
@@ -194,7 +194,8 @@ Youtube貼り付けここまで -->
             <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：3</span>ウイルス動画のSOS</h2>
             <p class="text-center">ん？なんだこの動画？<br>
               どうやら、ダークウェブのウイルス動画らしいな…<br>
-              一体何を伝えたいのだろうか？</p>
+              一体何を伝えたいのだろうか？
+            ＊音声注意＊</p>
             
               <div class="youtube__container">
                 <div class="youtube">
